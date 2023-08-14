@@ -8,15 +8,17 @@
   </head>
   <body class="bg-slate-100">
     <header>
-      <h1 class="text-6xl mt-6 text-center font-semibold text-gray-900">
+      <h1
+        class="text-3xl lg:text-6xl mt-6 text-center font-semibold text-gray-900"
+      >
         Let's get some <span class="text-red-400">Money</span>
       </h1>
     </header>
     <main>
       <section class="mt-20 w-4/5 mx-auto">
-        <div class="grid grid-cols-3 gap-8 text-white">
+        <div class="block lg:grid lg:grid-cols-3 lg:gap-8 text-white">
           <div
-            class="bg-emerald-500 px-6 py-14 rounded shadow-lg shadow-gray-500/50"
+            class="mb-8 bg-emerald-500 px-6 py-14 rounded shadow-lg shadow-gray-500/50"
           >
             <h3 class="text-2xl mb-3">Deposit</h3>
             <h2 id="deposit" class="text-5xl">
@@ -24,13 +26,13 @@
             </h2>
           </div>
           <div
-            class="bg-cyan-500 px-6 py-10 rounded shadow-lg shadow-gray-500/50"
+            class="mb-8 bg-cyan-500 px-6 py-10 rounded shadow-lg shadow-gray-500/50"
           >
             <h3 class="text-2xl mb-3">Withdraw</h3>
             <h2 class="text-5xl"><span id="withdraw">00</span> TK</h2>
           </div>
           <div
-            class="bg-fuchsia-500 px-6 py-10 rounded shadow-lg shadow-gray-500/50"
+            class="mb-8 bg-fuchsia-500 px-6 py-10 rounded shadow-lg shadow-gray-500/50"
           >
             <h3 class="text-2xl mb-3">Balance</h3>
             <h2 class="text-5xl"><span id="main-balance">10000</span> TK</h2>
@@ -38,13 +40,13 @@
         </div>
       </section>
       <section class="mt-20 w-4/5 mx-auto">
-        <div class="mt-20 grid grid-cols-2 gap-16 text-white">
+        <div class="mt-20 block lg:grid lg:grid-cols-2 lg:gap-16 text-white">
           <div
-            class="bg-orange-500 px-6 py-20 rounded shadow-lg shadow-gray-500/50"
+            class="mb-8 bg-orange-500 px-6 py-20 rounded shadow-lg shadow-gray-500/50"
           >
             <h3 class="text-2xl mb-3">Please Deposit :</h3>
             <input
-              class="block mb-4 px-6 py-3 w-1/2 shadow-lg shadow-gray-500/50 rounded text-black"
+              class="block mb-4 px-6 py-3 w-full lg:w-1/2 shadow-lg shadow-gray-500/50 rounded text-black"
               type="text"
               id="deposit-field"
               placeholder="Enter deposit amount"
@@ -57,12 +59,12 @@
             </button>
           </div>
           <div
-            class="bg-indigo-500 px-6 py-20 rounded shadow-lg shadow-gray-500/50"
+            class="mb-8 bg-indigo-500 px-6 py-20 rounded shadow-lg shadow-gray-500/50"
           >
             <h3 class="text-2xl mb-3">Please Withdraw :</h3>
             <input
               id="withdraw-field"
-              class="block mb-4 px-6 py-3 w-1/2 shadow-lg shadow-gray-500/50 rounded text-black"
+              class="block mb-4 px-6 py-3 w-full lg:w-1/2 shadow-lg shadow-gray-500/50 rounded text-black"
               type="text"
               placeholder="Enter withdraw amount"
             />
